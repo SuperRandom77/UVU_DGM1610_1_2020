@@ -9,6 +9,7 @@ public class MoveLeft : MonoBehaviour
     private float leftbound = -15; 
     private void Start()
     {
+        //finds the player controller
         PlayerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
     }
     // Update is called once per frame
